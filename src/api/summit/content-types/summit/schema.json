@@ -1,0 +1,58 @@
+{
+  "kind": "singleType",
+  "collectionName": "summits",
+  "info": {
+    "singularName": "summit",
+    "pluralName": "summits",
+    "displayName": "Summit",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Summit_hero": {
+      "displayName": "hero",
+      "type": "component",
+      "repeatable": false,
+      "component": "summit.hero"
+    },
+    "Summit_description": {
+      "displayName": "Summit_description",
+      "type": "component",
+      "repeatable": false,
+      "component": "summit.summit-description"
+    },
+    "Summit_banner": {
+      "displayName": "Summit_banner",
+      "type": "component",
+      "repeatable": false,
+      "component": "summit.summit-banner"
+    },
+    "Summit_speakers": {
+      "displayName": "Summit_speakers",
+      "type": "component",
+      "repeatable": false,
+      "component": "summit.summit-speakers"
+    },
+    "Summit_sponsors": {
+      "displayName": "apps",
+      "type": "component",
+      "repeatable": false,
+      "component": "summit.apps"
+    },
+    "Summit_announcement": {
+      "displayName": "Summit_announcement",
+      "type": "component",
+      "repeatable": false,
+      "component": "summit.summit-announcement"
+    },
+    "Summit_about": {
+      "displayName": "Summit_about",
+      "type": "component",
+      "repeatable": false,
+      "component": "summit.summit-about"
+    }
+  }
+}

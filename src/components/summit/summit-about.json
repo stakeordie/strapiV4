@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_comps_summit_abouts",
+  "info": {
+    "displayName": "Summit_about",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "body": {
+      "type": "text"
+    },
+    "cta_button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basics.link"
+    }
+  }
+}

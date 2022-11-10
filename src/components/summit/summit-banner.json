@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_page_comps_summit_banners",
+  "info": {
+    "displayName": "Summit_banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    }
+  }
+}

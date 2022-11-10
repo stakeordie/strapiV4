@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_basics_descriptions",
+  "info": {
+    "displayName": "descriptions"
+  },
+  "options": {},
+  "attributes": {
+    "body": {
+      "type": "text"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

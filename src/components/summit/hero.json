@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_page_comps_heroes",
+  "info": {
+    "displayName": "Summit_hero",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "text"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "start_date": {
+      "type": "datetime"
+    },
+    "cta_button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "basics.link"
+    }
+  }
+}

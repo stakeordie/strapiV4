@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_comps_summit_descriptions",
+  "info": {
+    "displayName": "Summit_description",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "descriptions": {
+      "displayName": "descriptions",
+      "type": "component",
+      "repeatable": true,
+      "component": "basics.descriptions"
+    },
+    "bottom_text": {
+      "type": "text"
+    }
+  }
+}

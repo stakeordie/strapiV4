@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_comps_apps",
+  "info": {
+    "displayName": "Summit_sponsors",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "body": {
+      "type": "text"
+    },
+    "sponsors": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basics.link-with-image"
+    }
+  }
+}
