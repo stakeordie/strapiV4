@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_summit_summit_welcomes",
+  "info": {
+    "displayName": "Summit_welcome"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "body": {
+      "type": "text"
+    },
+    "livestream_code_id": {
+      "type": "string"
+    }
+  }
+}
