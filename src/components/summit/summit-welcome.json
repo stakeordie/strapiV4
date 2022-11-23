@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_page_comps_apps",
+  "collectionName": "components_summit_summit_welcomes",
   "info": {
-    "displayName": "Summit_sponsors",
+    "displayName": "Summit_welcome",
     "description": ""
   },
   "options": {},
@@ -15,10 +15,13 @@
     "body": {
       "type": "text"
     },
-    "sponsors": {
+    "livestream_code_id": {
+      "type": "string"
+    },
+    "cta_button": {
       "type": "component",
       "repeatable": false,
-      "component": "basics.link-with-image"
+      "component": "basics.link"
     }
   }
 }

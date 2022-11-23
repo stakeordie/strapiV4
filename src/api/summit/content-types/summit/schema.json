@@ -53,6 +53,12 @@
       "type": "component",
       "repeatable": false,
       "component": "summit.summit-about"
+    },
+    "Summit_welcome": {
+      "displayName": "Summit_welcome",
+      "type": "component",
+      "repeatable": false,
+      "component": "summit.summit-welcome"
     }
   }
 }
