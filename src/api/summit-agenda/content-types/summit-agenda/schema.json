@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "summit_agendas",
+  "info": {
+    "singularName": "summit-agenda",
+    "pluralName": "summit-agendas",
+    "displayName": "Summit - Agenda",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "summit_agenda": {
+      "displayName": "Summit_agenda",
+      "type": "component",
+      "repeatable": true,
+      "component": "summit.summit-agenda"
+    },
+    "cta_button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "basics.link"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_summit_summit_agenda",
+  "info": {
+    "displayName": "Summit_agenda",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "speaker_description": {
+      "type": "string"
+    },
+    "talk": {
+      "type": "string"
+    },
+    "moderator_name": {
+      "type": "string"
+    },
+    "moderator_description": {
+      "type": "string"
+    },
+    "start_time": {
+      "type": "time"
+    },
+    "end_time": {
+      "type": "time"
+    },
+    "speakers_name": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.speaker"
+    }
+  }
+}
