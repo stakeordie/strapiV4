@@ -17,7 +17,7 @@
     },
     "sponsors": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "basics.link-with-image"
     }
   }

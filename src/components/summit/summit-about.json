@@ -17,7 +17,7 @@
     },
     "cta_button": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "basics.link"
     }
   }
