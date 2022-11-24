@@ -6,11 +6,8 @@
   },
   "options": {},
   "attributes": {
-    "speaker_description": {
-      "type": "string"
-    },
-    "talk": {
-      "type": "string"
+    "title": {
+      "type": "text"
     },
     "moderator_name": {
       "type": "string"
@@ -24,7 +21,7 @@
     "end_time": {
       "type": "time"
     },
-    "speakers_name": {
+    "speakers": {
       "type": "component",
       "repeatable": true,
       "component": "cards.speaker"
