@@ -15,16 +15,13 @@
     "moderator_description": {
       "type": "string"
     },
-    "start_time": {
-      "type": "time"
-    },
-    "end_time": {
-      "type": "time"
-    },
     "speakers": {
       "type": "component",
       "repeatable": true,
       "component": "cards.speaker"
+    },
+    "time": {
+      "type": "string"
     }
   }
 }
