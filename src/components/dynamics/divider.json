@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_dynamics_dividers",
+  "info": {
+    "displayName": "Divider",
+    "icon": "grip-lines",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "show": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}

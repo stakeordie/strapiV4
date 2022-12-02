@@ -43,7 +43,8 @@
         "dynamics.text-column-double",
         "dynamics.article-image",
         "dynamics.text-image-column-double",
-        "dynamics.article-video"
+        "dynamics.article-video",
+        "dynamics.divider"
       ]
     },
     "comp_3_carousel": {
