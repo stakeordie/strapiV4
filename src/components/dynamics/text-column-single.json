@@ -16,20 +16,52 @@
     "width": {
       "type": "enumeration",
       "enum": [
-        "narrow",
         "standard",
         "wide"
-      ]
+      ],
+      "default": "standard"
     },
-    "paragraph_subtitle": {
+    "eyebrow_title": {
       "type": "string"
     },
     "is_anchor": {
       "type": "boolean",
       "default": false
     },
-    "navigation_level": {
+    "eyebrow_color": {
       "type": "string"
+    },
+    "paragraph_title_alignment": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ],
+      "default": "left"
+    },
+    "paragraph_title_weight": {
+      "type": "enumeration",
+      "enum": [
+        "H1",
+        "H2",
+        "H2.5",
+        "H3",
+        "H4",
+        "H5",
+        "H6"
+      ]
+    },
+    "navigation_level": {
+      "type": "enumeration",
+      "enum": [
+        "first",
+        "second",
+        "third",
+        "fourth",
+        "fifth",
+        "sixth"
+      ]
     }
   }
 }
