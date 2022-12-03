@@ -23,8 +23,55 @@
       "type": "boolean",
       "default": false
     },
-    "navigation_level": {
+    "main_title": {
       "type": "string"
+    },
+    "eyebrow_title": {
+      "type": "string"
+    },
+    "eyebrow_color": {
+      "type": "string"
+    },
+    "main_title_alignment": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ],
+      "default": "left"
+    },
+    "main_title_weight": {
+      "type": "enumeration",
+      "enum": [
+        "H1",
+        "H2",
+        "H2.5",
+        "H3",
+        "H4",
+        "H5",
+        "H6"
+      ],
+      "default": "H1"
+    },
+    "width": {
+      "type": "enumeration",
+      "enum": [
+        "standard",
+        "wide"
+      ],
+      "default": "standard"
+    },
+    "navigation_level": {
+      "type": "enumeration",
+      "enum": [
+        "first",
+        "second",
+        "third",
+        "fourth",
+        "fifth",
+        "sixth"
+      ]
     }
   }
 }
