@@ -4,7 +4,8 @@
   "info": {
     "singularName": "alert-bar",
     "pluralName": "alert-bars",
-    "displayName": "Alert Bar"
+    "displayName": "Alert Bar",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -22,6 +23,22 @@
           "localized": true
         }
       }
+    },
+    "text_color": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "background_color": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }
