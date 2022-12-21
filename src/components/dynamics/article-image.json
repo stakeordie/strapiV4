@@ -19,6 +19,26 @@
         "videos",
         "audios"
       ]
+    },
+    "padding_top": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "small",
+        "medium",
+        "large"
+      ],
+      "default": "none"
+    },
+    "padding_bottom": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "small",
+        "medium",
+        "large"
+      ],
+      "default": "small"
     }
   }
 }

@@ -7,10 +7,25 @@
   },
   "options": {},
   "attributes": {
-    "show": {
-      "type": "boolean",
-      "default": true,
-      "required": true
+    "padding_top": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "small",
+        "medium",
+        "large"
+      ],
+      "default": "small"
+    },
+    "padding_bottom": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "small",
+        "medium",
+        "large"
+      ],
+      "default": "small"
     }
   }
 }

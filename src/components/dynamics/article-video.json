@@ -2,7 +2,8 @@
   "collectionName": "components_dynamics_article_videos",
   "info": {
     "displayName": "Article - Video",
-    "icon": "photo-video"
+    "icon": "photo-video",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,14 +11,35 @@
       "type": "string"
     },
     "video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
+      ]
+    },
+    "padding_top": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "small",
+        "medium",
+        "large"
       ],
-      "type": "media",
-      "multiple": false
+      "default": "none"
+    },
+    "padding_bottom": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "small",
+        "medium",
+        "large"
+      ],
+      "default": "small"
     }
   }
 }
