@@ -45,7 +45,8 @@
         "dynamics.text-image-column-double",
         "dynamics.article-video",
         "dynamics.divider",
-        "dynamics.three-column-resource"
+        "dynamics.three-column-resource",
+        "dynamics.grid"
       ]
     },
     "comp_3_carousel": {

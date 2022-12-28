@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_dynamics_grid_cards",
+  "info": {
+    "displayName": "Grid Card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "is_external_link": {
+      "type": "boolean"
+    }
+  }
+}

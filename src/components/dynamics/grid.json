@@ -1,0 +1,83 @@
+{
+  "collectionName": "components_dynamics_grids",
+  "info": {
+    "displayName": "Grid",
+    "icon": "th",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "grid_card": {
+      "displayName": "Grid Card",
+      "type": "component",
+      "repeatable": true,
+      "component": "dynamics.grid-card"
+    },
+    "cta_button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "basics.link"
+    },
+    "grid_columns_mobile": {
+      "type": "enumeration",
+      "enum": [
+        "one",
+        "two",
+        "three",
+        "four",
+        "five",
+        "six"
+      ],
+      "default": "one",
+      "required": true
+    },
+    "grid_columns_tablet": {
+      "type": "enumeration",
+      "enum": [
+        "one",
+        "two",
+        "three",
+        "four",
+        "five",
+        "six"
+      ],
+      "default": "three",
+      "required": true
+    },
+    "grid_columns_desktop": {
+      "type": "enumeration",
+      "enum": [
+        "one",
+        "two",
+        "three",
+        "four",
+        "five",
+        "six"
+      ],
+      "default": "five",
+      "required": true
+    },
+    "padding_top": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "small",
+        "medium",
+        "large"
+      ],
+      "default": "none",
+      "required": true
+    },
+    "padding_bottom": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "small",
+        "medium",
+        "large"
+      ],
+      "default": "small",
+      "required": true
+    }
+  }
+}
