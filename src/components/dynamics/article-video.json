@@ -40,6 +40,9 @@
         "large"
       ],
       "default": "small"
+    },
+    "youtube_video_url": {
+      "type": "string"
     }
   }
 }
