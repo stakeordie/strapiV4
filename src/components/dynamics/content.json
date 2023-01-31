@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_dynamics_contents",
+  "info": {
+    "displayName": "Content",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "eyebrow_title": {
+      "type": "string"
+    },
+    "eyebrow_color": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    }
+  }
+}

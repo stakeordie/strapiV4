@@ -58,6 +58,14 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::lrn-art-tg.lrn-art-tg"
+    },
+    "Hero": {
+      "type": "dynamiczone",
+      "components": [
+        "dynamic-heros.double-column-image"
+      ],
+      "required": true,
+      "max": 1
     }
   }
 }

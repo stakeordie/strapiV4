@@ -1,0 +1,56 @@
+{
+  "collectionName": "components_dynamics_component_sizes",
+  "info": {
+    "displayName": "Component Sizes",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title_weight": {
+      "type": "enumeration",
+      "enum": [
+        "H1",
+        "H2",
+        "H2.5",
+        "H3",
+        "H4",
+        "H5",
+        "H6"
+      ],
+      "default": "H2",
+      "required": true
+    },
+    "title_alignment": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ],
+      "default": "left",
+      "required": true
+    },
+    "padding_top": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "small",
+        "medium",
+        "large"
+      ],
+      "default": "small",
+      "required": true
+    },
+    "padding_bottom": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "small",
+        "medium",
+        "large"
+      ],
+      "default": "small",
+      "required": true
+    }
+  }
+}

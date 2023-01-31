@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_dynamics_cta_buttons",
+  "info": {
+    "displayName": "CTA Button",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "width": {
+      "type": "enumeration",
+      "enum": [
+        "normal",
+        "full"
+      ],
+      "default": "normal",
+      "required": true
+    }
+  }
+}
