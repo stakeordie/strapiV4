@@ -1,7 +1,8 @@
 {
-  "collectionName": "components_dynamic_heros_title_heroes",
+  "collectionName": "components_dynamic_heros_title_blocks",
   "info": {
-    "displayName": "Title hero",
+    "displayName": "Title Block",
+    "icon": "align-justify",
     "description": ""
   },
   "options": {},
@@ -9,7 +10,7 @@
     "image": {
       "type": "media",
       "multiple": false,
-      "required": true,
+      "required": false,
       "allowedTypes": [
         "images"
       ]
@@ -21,18 +22,8 @@
         "center",
         "right"
       ],
-      "default": "left",
-      "required": true
-    },
-    "content": {
-      "type": "component",
-      "repeatable": false,
-      "component": "dynamics.content"
-    },
-    "sizes": {
-      "type": "component",
-      "repeatable": false,
-      "component": "dynamics.component-sizes"
+      "required": true,
+      "default": "left"
     },
     "image_height": {
       "type": "enumeration",
@@ -41,6 +32,18 @@
         "full-screen"
       ],
       "default": "normal",
+      "required": true
+    },
+    "content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dynamics.content",
+      "required": true
+    },
+    "sizes": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dynamics.component-sizes",
       "required": true
     }
   }
