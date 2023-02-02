@@ -62,10 +62,16 @@
     "Hero": {
       "type": "dynamiczone",
       "components": [
-        "dynamic-heros.double-column-image"
+        "dynamic-heros.double-column-image",
+        "dynamic-heros.full-image-content"
       ],
       "required": true,
       "max": 1
+    },
+    "image_opacity": {
+      "type": "boolean",
+      "default": true,
+      "required": true
     }
   }
 }

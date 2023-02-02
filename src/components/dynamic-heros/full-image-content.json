@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_dynamic_heros_full_image_contents",
+  "info": {
+    "displayName": "Full Image Content",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "image_position": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right",
+        "full"
+      ],
+      "default": "right",
+      "required": true
+    },
+    "image_size": {
+      "type": "enumeration",
+      "enum": [
+        "normal",
+        "full"
+      ],
+      "default": "normal",
+      "required": true
+    },
+    "content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dynamics.content",
+      "required": true
+    },
+    "sizes": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dynamics.component-sizes",
+      "required": true
+    }
+  }
+}
