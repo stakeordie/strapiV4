@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_dynamic_heros_title_heroes",
+  "info": {
+    "displayName": "Title hero",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "content_position": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ],
+      "default": "left",
+      "required": true
+    },
+    "content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dynamics.content"
+    },
+    "sizes": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dynamics.component-sizes"
+    },
+    "image_height": {
+      "type": "enumeration",
+      "enum": [
+        "normal",
+        "full-screen"
+      ],
+      "default": "normal",
+      "required": true
+    }
+  }
+}
