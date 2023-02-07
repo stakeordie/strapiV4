@@ -17,6 +17,9 @@
     },
     "body": {
       "type": "richtext"
+    },
+    "custom_title": {
+      "type": "richtext"
     }
   }
 }
