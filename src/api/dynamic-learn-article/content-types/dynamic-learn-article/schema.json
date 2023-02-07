@@ -30,12 +30,6 @@
         "images"
       ]
     },
-    "comp_1_article_hero": {
-      "type": "component",
-      "repeatable": false,
-      "component": "dynamics.article-hero",
-      "required": true
-    },
     "Components_2": {
       "type": "dynamiczone",
       "components": [
@@ -70,11 +64,6 @@
       ],
       "required": true,
       "max": 1
-    },
-    "image_opacity": {
-      "type": "boolean",
-      "default": true,
-      "required": true
     }
   }
 }

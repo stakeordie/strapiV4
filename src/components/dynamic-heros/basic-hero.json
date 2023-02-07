@@ -28,7 +28,7 @@
         "medium",
         "large"
       ],
-      "default": "small",
+      "default": "none",
       "required": true
     },
     "padding_bottom": {
