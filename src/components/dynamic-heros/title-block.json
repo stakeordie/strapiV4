@@ -1,7 +1,8 @@
 {
-  "collectionName": "components_dynamic_heros_double_column_images",
+  "collectionName": "components_dynamic_heros_title_blocks",
   "info": {
-    "displayName": "Double Column Image",
+    "displayName": "Title Block",
+    "icon": "align-justify",
     "description": ""
   },
   "options": {},
@@ -9,18 +10,28 @@
     "image": {
       "type": "media",
       "multiple": false,
-      "required": true,
+      "required": false,
       "allowedTypes": [
         "images"
       ]
     },
-    "image_position": {
+    "content_position": {
       "type": "enumeration",
       "enum": [
         "left",
+        "center",
         "right"
       ],
-      "default": "left",
+      "required": true,
+      "default": "left"
+    },
+    "image_height": {
+      "type": "enumeration",
+      "enum": [
+        "normal",
+        "full-screen"
+      ],
+      "default": "normal",
       "required": true
     },
     "content": {
@@ -34,16 +45,6 @@
       "repeatable": false,
       "component": "dynamics.component-sizes",
       "required": true
-    },
-    "cta_button": {
-      "type": "component",
-      "repeatable": false,
-      "component": "dynamics.cta-button"
-    },
-    "cta_button_second": {
-      "type": "component",
-      "repeatable": false,
-      "component": "dynamics.cta-button"
     }
   }
 }

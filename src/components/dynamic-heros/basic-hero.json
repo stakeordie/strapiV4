@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_dynamic_heros_basic_heroes",
+  "info": {
+    "displayName": "Basic Hero",
+    "description": "",
+    "icon": "image"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "show_breadcrumb": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "padding_top": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "small",
+        "medium",
+        "large"
+      ],
+      "default": "small",
+      "required": true
+    },
+    "padding_bottom": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "small",
+        "medium",
+        "large"
+      ],
+      "default": "small",
+      "required": true
+    }
+  }
+}

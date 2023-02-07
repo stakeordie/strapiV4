@@ -63,7 +63,9 @@
       "type": "dynamiczone",
       "components": [
         "dynamic-heros.double-column-image",
-        "dynamic-heros.full-image-content"
+        "dynamic-heros.full-image-content",
+        "dynamic-heros.title-block",
+        "dynamic-heros.basic-hero"
       ],
       "required": true,
       "max": 1
