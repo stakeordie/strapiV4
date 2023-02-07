@@ -1,7 +1,8 @@
 {
-  "collectionName": "components_dynamic_heros_double_column_images",
+  "collectionName": "components_dynamic_heros_full_image_contents",
   "info": {
-    "displayName": "Double Column Image",
+    "displayName": "Full Image Content",
+    "icon": "address-card",
     "description": ""
   },
   "options": {},
@@ -9,7 +10,7 @@
     "image": {
       "type": "media",
       "multiple": false,
-      "required": true,
+      "required": false,
       "allowedTypes": [
         "images"
       ]
@@ -18,9 +19,20 @@
       "type": "enumeration",
       "enum": [
         "left",
-        "right"
+        "center",
+        "right",
+        "full"
       ],
-      "default": "left",
+      "default": "right",
+      "required": true
+    },
+    "image_size": {
+      "type": "enumeration",
+      "enum": [
+        "normal",
+        "full"
+      ],
+      "default": "normal",
       "required": true
     },
     "content": {
@@ -34,16 +46,6 @@
       "repeatable": false,
       "component": "dynamics.component-sizes",
       "required": true
-    },
-    "cta_button": {
-      "type": "component",
-      "repeatable": false,
-      "component": "dynamics.cta-button"
-    },
-    "cta_button_second": {
-      "type": "component",
-      "repeatable": false,
-      "component": "dynamics.cta-button"
     }
   }
 }

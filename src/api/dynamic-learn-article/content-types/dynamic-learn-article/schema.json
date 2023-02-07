@@ -64,10 +64,18 @@
       "components": [
         "dynamic-heros.double-column-image",
         "dynamic-heros.basic-hero",
-        "dynamic-heros.full-image-buttons-content"
+        "dynamic-heros.full-image-buttons-content",
+        "dynamic-heros.full-image-content",
+        "dynamic-heros.title-block",
+        "dynamic-heros.basic-hero"
       ],
       "required": true,
       "max": 1
+    },
+    "image_opacity": {
+      "type": "boolean",
+      "default": true,
+      "required": true
     }
   }
 }

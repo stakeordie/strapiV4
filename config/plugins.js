@@ -30,7 +30,7 @@ module.exports = ({ env }) => ({
   'website-builder': {
     enabled: true,
     config: {
-      url: 'https://api.render.com/deploy/srv-c9pcuons437om8ugf2k0?key=2fvI1p8NSa4',
+      url: 'https://api.render.com/deploy/srv-cf8phd02i3mmd0lnufe0?key=2yDJhj-MKX8',
       trigger: {
         type: 'manual',
       },
