@@ -4,8 +4,8 @@
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
-    "local": "DATABASE_LOCATION=local strapi develop",
-    "develop": "DATABASE_LOCATION=remote strapi develop",
+    "local": "strapi develop",
+    "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"

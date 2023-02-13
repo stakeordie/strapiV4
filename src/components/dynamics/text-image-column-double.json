@@ -2,7 +2,7 @@
   "collectionName": "components_dynamics_text_image_column_doubles",
   "info": {
     "displayName": "Text Image Column - Double",
-    "icon": "fan",
+    "icon": "address-card",
     "description": ""
   },
   "options": {},
@@ -101,6 +101,22 @@
         "large"
       ],
       "default": "small"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "dynamics.cta-button",
+      "max": 2
+    },
+    "buttons_position": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ],
+      "default": "left",
+      "required": false
     }
   }
 }

@@ -2,7 +2,8 @@
   "collectionName": "components_dynamics_article_images",
   "info": {
     "displayName": "Article - Image",
-    "description": ""
+    "description": "",
+    "icon": "image"
   },
   "options": {},
   "attributes": {

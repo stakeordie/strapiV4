@@ -2,7 +2,8 @@
   "collectionName": "components_dynamic_heros_full_image_buttons_contents",
   "info": {
     "displayName": "Full Image Buttons Content",
-    "icon": "ad"
+    "icon": "ad",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -34,10 +35,6 @@
       "default": "normal",
       "required": true
     },
-    "main_color": {
-      "type": "string",
-      "required": false
-    },
     "content": {
       "type": "component",
       "repeatable": false,
@@ -50,17 +47,11 @@
       "component": "dynamics.component-sizes",
       "required": true
     },
-    "cta_button": {
+    "buttons": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "dynamics.cta-button",
-      "required": false
-    },
-    "cta_button_second": {
-      "type": "component",
-      "repeatable": false,
-      "component": "dynamics.cta-button",
-      "required": false
+      "max": 2
     }
   }
 }

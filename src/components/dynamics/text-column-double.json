@@ -92,6 +92,38 @@
         "large"
       ],
       "default": "small"
+    },
+    "first_paragraph_buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "dynamics.cta-button",
+      "max": 2
+    },
+    "second_paragraph_buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "dynamics.cta-button",
+      "max": 2
+    },
+    "first_buttons_position": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ],
+      "required": false,
+      "default": "left"
+    },
+    "second_buttons_position": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ],
+      "default": "left",
+      "required": false
     }
   }
 }

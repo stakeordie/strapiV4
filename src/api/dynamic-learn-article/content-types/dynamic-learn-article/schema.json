@@ -40,7 +40,8 @@
         "dynamics.article-video",
         "dynamics.divider",
         "dynamics.three-column-resource",
-        "dynamics.grid"
+        "dynamics.grid",
+        "dynamics.cta-button"
       ]
     },
     "comp_3_carousel": {

@@ -20,6 +20,9 @@
     },
     "custom_title": {
       "type": "richtext"
+    },
+    "custom_title_color": {
+      "type": "string"
     }
   }
 }

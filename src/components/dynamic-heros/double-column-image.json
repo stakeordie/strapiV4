@@ -35,15 +35,21 @@
       "component": "dynamics.component-sizes",
       "required": true
     },
-    "cta_button": {
+    "buttons": {
       "type": "component",
-      "repeatable": false,
-      "component": "dynamics.cta-button"
+      "repeatable": true,
+      "component": "dynamics.cta-button",
+      "max": 2
     },
-    "cta_button_second": {
-      "type": "component",
-      "repeatable": false,
-      "component": "dynamics.cta-button"
+    "buttons_position": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ],
+      "default": "left",
+      "required": true
     }
   }
 }

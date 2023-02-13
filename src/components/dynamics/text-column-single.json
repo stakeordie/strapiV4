@@ -82,6 +82,12 @@
         "large"
       ],
       "default": "small"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dynamics.cta-button",
+      "max": 2
     }
   }
 }
