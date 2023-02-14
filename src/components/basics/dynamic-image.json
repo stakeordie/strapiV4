@@ -23,7 +23,7 @@
         "right"
       ],
       "default": "left",
-      "required": true
+      "required": false
     },
     "image_margin": {
       "type": "string",
