@@ -124,6 +124,16 @@
       ],
       "default": "left",
       "required": false
+    },
+    "first_image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "basics.dynamic-image"
+    },
+    "second_image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "basics.dynamic-image"
     }
   }
 }

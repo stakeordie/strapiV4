@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_basics_dynamic_images",
+  "info": {
+    "displayName": "Dynamic Image",
+    "icon": "image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "position": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ],
+      "default": "left",
+      "required": true
+    },
+    "image_margin": {
+      "type": "string",
+      "default": "12px",
+      "required": true
+    }
+  }
+}
