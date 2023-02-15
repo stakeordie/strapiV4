@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_basics_swirls",
+  "info": {
+    "displayName": "Swirl",
+    "icon": "image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "position": {
+      "type": "enumeration",
+      "enum": [
+        "top",
+        "bottom"
+      ],
+      "required": true,
+      "default": "top"
+    }
+  }
+}

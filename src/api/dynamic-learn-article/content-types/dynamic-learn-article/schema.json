@@ -65,6 +65,12 @@
       ],
       "required": true,
       "max": 1
+    },
+    "swirls": {
+      "displayName": "Swirls",
+      "type": "component",
+      "repeatable": false,
+      "component": "content-types.swirls"
     }
   }
 }

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_content_types_swirls",
+  "info": {
+    "displayName": "Swirls",
+    "icon": "images",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "top_swirl": {
+      "displayName": "Swirl",
+      "type": "component",
+      "repeatable": false,
+      "component": "basics.swirl"
+    },
+    "bottom_swirl": {
+      "type": "component",
+      "repeatable": false,
+      "component": "basics.swirl"
+    }
+  }
+}
