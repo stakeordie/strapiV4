@@ -14,15 +14,6 @@
       "allowedTypes": [
         "images"
       ]
-    },
-    "position": {
-      "type": "enumeration",
-      "enum": [
-        "top",
-        "bottom"
-      ],
-      "required": true,
-      "default": "top"
     }
   }
 }
