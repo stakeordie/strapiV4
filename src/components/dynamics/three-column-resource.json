@@ -16,14 +16,6 @@
     "subtitle": {
       "type": "text"
     },
-    "icon_size": {
-      "type": "enumeration",
-      "enum": [
-        "small",
-        "big"
-      ],
-      "default": "small"
-    },
     "cta_cards": {
       "displayName": "CTA Card",
       "type": "component",
@@ -38,7 +30,8 @@
         "medium",
         "large"
       ],
-      "default": "none"
+      "default": "none",
+      "required": true
     },
     "padding_bottom": {
       "type": "enumeration",
@@ -48,7 +41,12 @@
         "medium",
         "large"
       ],
-      "default": "small"
+      "default": "small",
+      "required": true
+    },
+    "eyebrow_color": {
+      "type": "string",
+      "required": false
     }
   }
 }

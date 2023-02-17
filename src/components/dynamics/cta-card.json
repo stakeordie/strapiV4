@@ -28,6 +28,15 @@
     },
     "url": {
       "type": "string"
+    },
+    "icon_position": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "top"
+      ],
+      "default": "left",
+      "required": true
     }
   }
 }
