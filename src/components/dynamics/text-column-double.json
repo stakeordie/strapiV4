@@ -172,6 +172,12 @@
       ],
       "required": true,
       "default": "left"
+    },
+    "component_colors": {
+      "type": "component",
+      "repeatable": false,
+      "component": "basics.component-colors",
+      "required": false
     }
   }
 }

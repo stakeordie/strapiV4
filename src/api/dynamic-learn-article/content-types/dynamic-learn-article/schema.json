@@ -25,7 +25,7 @@
     "thumbnail_image": {
       "type": "media",
       "multiple": false,
-      "required": true,
+      "required": false,
       "allowedTypes": [
         "images"
       ]
@@ -72,6 +72,10 @@
       "type": "component",
       "repeatable": false,
       "component": "content-types.swirls"
+    },
+    "background_color": {
+      "type": "string",
+      "required": false
     }
   }
 }

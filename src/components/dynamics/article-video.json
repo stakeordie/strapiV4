@@ -43,6 +43,11 @@
     },
     "youtube_video_url": {
       "type": "string"
+    },
+    "component_colors": {
+      "type": "component",
+      "repeatable": false,
+      "component": "basics.component-colors"
     }
   }
 }

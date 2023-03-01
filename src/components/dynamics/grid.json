@@ -78,6 +78,12 @@
       ],
       "default": "small",
       "required": true
+    },
+    "component_colors": {
+      "type": "component",
+      "repeatable": false,
+      "component": "basics.component-colors",
+      "required": false
     }
   }
 }

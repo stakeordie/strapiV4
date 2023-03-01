@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_basics_component_colors",
+  "info": {
+    "displayName": "Component Colors",
+    "icon": "paint-brush",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "background_color": {
+      "type": "string",
+      "required": false
+    },
+    "title_color": {
+      "type": "string",
+      "required": false
+    },
+    "body_color": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

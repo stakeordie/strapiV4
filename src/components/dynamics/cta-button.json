@@ -56,6 +56,10 @@
       ],
       "default": "center",
       "required": true
+    },
+    "text_color": {
+      "type": "string",
+      "required": false
     }
   }
 }

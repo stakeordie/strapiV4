@@ -47,6 +47,12 @@
     "eyebrow_color": {
       "type": "string",
       "required": false
+    },
+    "component_colors": {
+      "type": "component",
+      "repeatable": false,
+      "component": "basics.component-colors",
+      "required": false
     }
   }
 }

@@ -26,6 +26,14 @@
         "large"
       ],
       "default": "small"
+    },
+    "background_color": {
+      "type": "string",
+      "required": false
+    },
+    "divider_color": {
+      "type": "string",
+      "required": false
     }
   }
 }
