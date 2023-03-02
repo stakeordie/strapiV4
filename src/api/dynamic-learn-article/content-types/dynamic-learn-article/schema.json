@@ -76,6 +76,11 @@
     "background_color": {
       "type": "string",
       "required": false
+    },
+    "display_navigation": {
+      "type": "boolean",
+      "default": true,
+      "required": true
     }
   }
 }
