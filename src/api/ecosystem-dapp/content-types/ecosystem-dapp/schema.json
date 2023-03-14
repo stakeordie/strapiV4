@@ -4,7 +4,8 @@
   "info": {
     "singularName": "ecosystem-dapp",
     "pluralName": "ecosystem-dapps",
-    "displayName": "Ecosystem - dApp"
+    "displayName": "Ecosystem - dApp",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -26,17 +27,17 @@
       }
     },
     "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "required": false
+      }
     },
     "link": {
       "type": "string",
