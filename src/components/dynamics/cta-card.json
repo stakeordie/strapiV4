@@ -37,6 +37,11 @@
       ],
       "default": "left",
       "required": true
+    },
+    "is_external_link": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }

@@ -13,11 +13,6 @@
       "repeatable": true,
       "component": "dynamics.grid-card"
     },
-    "cta_button": {
-      "type": "component",
-      "repeatable": false,
-      "component": "basics.link"
-    },
     "grid_columns_mobile": {
       "type": "enumeration",
       "enum": [
