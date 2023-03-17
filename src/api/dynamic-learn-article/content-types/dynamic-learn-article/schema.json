@@ -81,6 +81,16 @@
       "type": "boolean",
       "default": true,
       "required": true
+    },
+    "display_alert_bar": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "display_footer": {
+      "type": "boolean",
+      "default": true,
+      "required": true
     }
   }
 }
