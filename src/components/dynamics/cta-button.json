@@ -65,6 +65,16 @@
       "type": "boolean",
       "default": false,
       "required": true
+    },
+    "is_event_button": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "event_id": {
+      "type": "string",
+      "maxLength": 30,
+      "required": false
     }
   }
 }
