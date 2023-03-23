@@ -155,6 +155,16 @@
       "repeatable": false,
       "component": "basics.component-colors",
       "required": false
+    },
+    "content_alignment": {
+      "type": "enumeration",
+      "enum": [
+        "top",
+        "center",
+        "bottom"
+      ],
+      "default": "center",
+      "required": true
     }
   }
 }
