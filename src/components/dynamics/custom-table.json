@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_dynamics_custom_tables",
+  "info": {
+    "displayName": "Custom Table",
+    "icon": "table"
+  },
+  "options": {},
+  "attributes": {
+    "table": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::dynamic-table.dynamic-table"
+    },
+    "padding_top": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "small",
+        "medium",
+        "large"
+      ],
+      "required": true,
+      "default": "small"
+    },
+    "padding_bottom": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "small",
+        "medium",
+        "large"
+      ],
+      "required": true,
+      "default": "small"
+    }
+  }
+}

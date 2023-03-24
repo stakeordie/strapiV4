@@ -42,7 +42,8 @@
         "dynamics.three-column-resource",
         "dynamics.grid",
         "dynamics.cta-button",
-        "dynamics.custom-carousel"
+        "dynamics.custom-carousel",
+        "dynamics.custom-table"
       ]
     },
     "comp_3_carousel": {

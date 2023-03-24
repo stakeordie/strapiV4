@@ -1,0 +1,63 @@
+{
+  "collectionName": "components_content_types_table_fields",
+  "info": {
+    "displayName": "Table Field",
+    "icon": "envelope",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    },
+    "second_value": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "is_value_link": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "is_second_value_link": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "value_url": {
+      "type": "string"
+    },
+    "second_value_url": {
+      "type": "string"
+    },
+    "text_weight": {
+      "type": "enumeration",
+      "enum": [
+        "normal",
+        "bold"
+      ],
+      "required": true,
+      "default": "normal"
+    },
+    "text_color": {
+      "type": "string"
+    },
+    "text_alignment": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ],
+      "default": "left",
+      "required": true
+    }
+  }
+}

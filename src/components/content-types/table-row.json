@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_content_types_table_rows",
+  "info": {
+    "displayName": "Table Row",
+    "icon": "arrows-alt-h",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "row_fields": {
+      "displayName": "Table Field",
+      "type": "component",
+      "repeatable": true,
+      "component": "content-types.table-field",
+      "required": true,
+      "min": 1,
+      "max": 10
+    }
+  }
+}

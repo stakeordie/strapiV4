@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dynamic_tables",
+  "info": {
+    "singularName": "dynamic-table",
+    "pluralName": "dynamic-tables",
+    "displayName": "Dynamic Table",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "table_headers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content-types.table-header",
+      "required": true,
+      "max": 10,
+      "min": 1
+    },
+    "table_rows": {
+      "displayName": "Table Row",
+      "type": "component",
+      "repeatable": true,
+      "component": "content-types.table-row",
+      "required": true,
+      "min": 1
+    }
+  }
+}

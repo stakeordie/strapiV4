@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_content_types_table_headers",
+  "info": {
+    "displayName": "Table Header",
+    "icon": "text-width",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "text_weight": {
+      "type": "enumeration",
+      "enum": [
+        "normal",
+        "bold"
+      ],
+      "required": true,
+      "default": "normal"
+    },
+    "text_color": {
+      "type": "string"
+    }
+  }
+}
