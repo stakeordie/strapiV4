@@ -1,16 +1,22 @@
 {
-  "collectionName": "components_dynamics_custom_tables",
+  "collectionName": "components_dynamics_ecosystems",
   "info": {
-    "displayName": "Custom Table",
-    "icon": "table",
+    "displayName": "Ecosystem",
+    "icon": "globe-americas",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "table": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::dynamic-table.dynamic-table"
+    "collection": {
+      "type": "enumeration",
+      "enum": [
+        "Dapps",
+        "Tools",
+        "Exchanges",
+        "Contributors",
+        "Partners"
+      ],
+      "required": true
     },
     "padding_top": {
       "type": "enumeration",

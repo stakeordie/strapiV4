@@ -43,7 +43,8 @@
         "dynamics.grid",
         "dynamics.cta-button",
         "dynamics.custom-carousel",
-        "dynamics.custom-table"
+        "dynamics.custom-table",
+        "dynamics.ecosystem"
       ]
     },
     "comp_3_carousel": {
