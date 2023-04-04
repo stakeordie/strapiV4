@@ -178,6 +178,11 @@
       "repeatable": false,
       "component": "basics.component-colors",
       "required": false
+    },
+    "is_external_link": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }

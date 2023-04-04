@@ -123,6 +123,11 @@
       "type": "component",
       "repeatable": false,
       "component": "basics.component-colors"
+    },
+    "is_external_link": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }
