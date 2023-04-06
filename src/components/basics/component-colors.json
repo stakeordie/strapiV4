@@ -18,6 +18,30 @@
     "body_color": {
       "type": "string",
       "required": false
+    },
+    "background_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "background_image_position": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right",
+        "full"
+      ],
+      "default": "full",
+      "required": true
+    },
+    "image_opacity": {
+      "type": "boolean",
+      "default": true,
+      "required": true
     }
   }
 }
