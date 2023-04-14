@@ -44,6 +44,17 @@
       "type": "component",
       "repeatable": false,
       "component": "basics.component-colors"
+    },
+    "image_height": {
+      "type": "string",
+      "required": true,
+      "default": "48px"
+    },
+    "duration": {
+      "type": "integer",
+      "required": true,
+      "default": 150,
+      "min": 1
     }
   }
 }
