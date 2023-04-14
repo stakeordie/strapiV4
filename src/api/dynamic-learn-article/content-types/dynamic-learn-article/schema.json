@@ -44,7 +44,8 @@
         "dynamics.cta-button",
         "dynamics.custom-carousel",
         "dynamics.custom-table",
-        "dynamics.ecosystem"
+        "dynamics.ecosystem",
+        "dynamics.infinite-carousel"
       ]
     },
     "comp_3_carousel": {

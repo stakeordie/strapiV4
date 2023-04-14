@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_dynamics_infinite_carousels",
+  "info": {
+    "displayName": "InfiniteCarousel",
+    "icon": "images",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "padding_top": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "small",
+        "medium",
+        "large"
+      ],
+      "required": true,
+      "default": "small"
+    },
+    "padding_bottom": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "small",
+        "medium",
+        "large"
+      ],
+      "required": true,
+      "default": "small"
+    },
+    "content": {
+      "displayName": "Image",
+      "type": "component",
+      "repeatable": true,
+      "component": "basics.image",
+      "required": true,
+      "min": 1
+    },
+    "component_colors": {
+      "type": "component",
+      "repeatable": false,
+      "component": "basics.component-colors"
+    }
+  }
+}
