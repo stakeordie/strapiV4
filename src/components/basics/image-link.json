@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_basics_image_links",
+  "info": {
+    "displayName": "ImageLink"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "is_external_link": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}

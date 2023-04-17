@@ -183,6 +183,26 @@
       "type": "boolean",
       "default": false,
       "required": true
+    },
+    "first_footer_title": {
+      "type": "string",
+      "required": false
+    },
+    "first_footer_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basics.image-link",
+      "required": false
+    },
+    "second_footer_title": {
+      "type": "string",
+      "required": false
+    },
+    "second_footer_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basics.image-link",
+      "required": false
     }
   }
 }

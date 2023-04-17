@@ -170,6 +170,16 @@
       "type": "boolean",
       "default": false,
       "required": true
+    },
+    "footer_title": {
+      "type": "string",
+      "required": false
+    },
+    "footer_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basics.image-link",
+      "required": false
     }
   }
 }
