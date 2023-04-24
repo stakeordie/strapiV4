@@ -22,8 +22,9 @@
         "images"
       ]
     },
-    "background_color": {
-      "type": "string"
+    "button_color": {
+      "type": "string",
+      "required": false
     },
     "margin_top": {
       "type": "enumeration",
@@ -74,6 +75,10 @@
     "event_id": {
       "type": "string",
       "maxLength": 30,
+      "required": false
+    },
+    "background_color": {
+      "type": "string",
       "required": false
     }
   }
