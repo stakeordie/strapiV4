@@ -203,6 +203,26 @@
       "repeatable": true,
       "component": "basics.image-link",
       "required": false
+    },
+    "first_title_alignment": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ],
+      "default": "left",
+      "required": true
+    },
+    "second_title_alignment": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ],
+      "default": "left",
+      "required": true
     }
   }
 }
