@@ -30,6 +30,26 @@
       "type": "boolean",
       "required": true,
       "default": false
+    },
+    "title_alignment": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ],
+      "required": true,
+      "default": "left"
+    },
+    "body_alignment": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ],
+      "required": true,
+      "default": "left"
     }
   }
 }
