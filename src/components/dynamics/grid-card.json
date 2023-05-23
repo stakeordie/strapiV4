@@ -50,6 +50,32 @@
       ],
       "required": true,
       "default": "left"
+    },
+    "image_alignment": {
+      "type": "enumeration",
+      "enum": [
+        "top-left",
+        "top-center",
+        "top-right",
+        "left-to-text",
+        "right-to-text"
+      ],
+      "required": true,
+      "default": "top-center"
+    },
+    "title_size": {
+      "type": "enumeration",
+      "enum": [
+        "H1",
+        "H2",
+        "H2.5",
+        "H3",
+        "H4",
+        "H5",
+        "H6"
+      ],
+      "default": "H3",
+      "required": true
     }
   }
 }
