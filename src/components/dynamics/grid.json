@@ -79,6 +79,14 @@
       "repeatable": false,
       "component": "basics.component-colors",
       "required": false
+    },
+    "card_background_color": {
+      "type": "string",
+      "required": false
+    },
+    "card_background_hover_color": {
+      "type": "string",
+      "required": false
     }
   }
 }
