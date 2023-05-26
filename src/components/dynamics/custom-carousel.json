@@ -68,6 +68,11 @@
       "type": "component",
       "repeatable": false,
       "component": "basics.component-colors"
+    },
+    "hide_scroll_arrows": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }
