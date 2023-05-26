@@ -20,7 +20,8 @@
       "multiple": false,
       "required": false,
       "allowedTypes": [
-        "images"
+        "images",
+        "videos"
       ]
     },
     "image_description": {
@@ -180,6 +181,9 @@
       "repeatable": true,
       "component": "basics.image-link",
       "required": false
+    },
+    "video_url": {
+      "type": "string"
     }
   }
 }
