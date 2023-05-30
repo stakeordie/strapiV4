@@ -13,7 +13,8 @@
         "none",
         "small",
         "medium",
-        "large"
+        "large",
+        "extra-large"
       ],
       "default": "small"
     },
@@ -23,7 +24,8 @@
         "none",
         "small",
         "medium",
-        "large"
+        "large",
+        "extra-large"
       ],
       "default": "small"
     },

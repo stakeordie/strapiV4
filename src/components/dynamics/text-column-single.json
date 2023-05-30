@@ -79,7 +79,8 @@
         "none",
         "small",
         "medium",
-        "large"
+        "large",
+        "extra-large"
       ],
       "default": "none",
       "required": true
@@ -90,7 +91,8 @@
         "none",
         "small",
         "medium",
-        "large"
+        "large",
+        "extra-large"
       ],
       "default": "small",
       "required": true
