@@ -89,6 +89,15 @@
     "card_background_hover_color": {
       "type": "string",
       "required": false
+    },
+    "width": {
+      "type": "enumeration",
+      "enum": [
+        "standard",
+        "wide"
+      ],
+      "default": "wide",
+      "required": true
     }
   }
 }
