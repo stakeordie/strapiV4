@@ -30,6 +30,10 @@
     },
     "path": {
       "type": "string"
+    },
+    "is_external_link": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
