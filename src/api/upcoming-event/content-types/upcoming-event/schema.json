@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "upcoming_events",
+  "info": {
+    "singularName": "upcoming-event",
+    "pluralName": "upcoming-events",
+    "displayName": "Upcoming Event",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "start_date_day": {
+      "required": true,
+      "type": "date"
+    },
+    "start_date_hour": {
+      "type": "time",
+      "required": true
+    },
+    "end_date_day": {
+      "type": "date",
+      "required": true
+    },
+    "end_date_hour": {
+      "type": "time"
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "cover_image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "button_text": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "is_external_link": {
+      "type": "boolean",
+      "required": true
+    }
+  }
+}
