@@ -21,8 +21,7 @@
     "destination_route": {
       "type": "string",
       "required": true,
-      "unique": false,
-      "regex": "^[\\/\\.]*$"
+      "unique": false
     }
   }
 }
