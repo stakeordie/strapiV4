@@ -53,6 +53,9 @@
     "is_external_link": {
       "type": "boolean",
       "required": true
+    },
+    "location": {
+      "type": "string"
     }
   }
 }
