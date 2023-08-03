@@ -4,7 +4,8 @@
   "info": {
     "singularName": "scrt-buying-option",
     "pluralName": "scrt-buying-options",
-    "displayName": "SCRT Buying Option"
+    "displayName": "SCRT Buying Option",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -24,7 +25,11 @@
       "type": "component",
       "repeatable": true,
       "component": "get-scrt.scrt-buying-option"
+    },
+    "order": {
+      "type": "integer",
+      "required": true,
+      "unique": true
     }
   }
-  
 }
