@@ -12,21 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "start_date_day": {
-      "required": true,
-      "type": "date"
-    },
-    "start_date_hour": {
-      "type": "time",
-      "required": true
-    },
-    "end_date_day": {
-      "type": "date",
-      "required": true
-    },
-    "end_date_hour": {
-      "type": "time"
-    },
     "name": {
       "type": "string",
       "required": true
@@ -44,7 +29,9 @@
       ]
     },
     "button_text": {
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "default": "Register"
     },
     "link": {
       "type": "string",
@@ -55,7 +42,18 @@
       "required": true
     },
     "location": {
-      "type": "string"
+      "type": "string",
+      "required": true
+    },
+    "order": {
+      "type": "integer",
+      "required": true,
+      "unique": true,
+      "min": 1
+    },
+    "event_date": {
+      "type": "text",
+      "required": true
     }
   }
 }
